@@ -35,7 +35,7 @@ if menu_app == "Home":
     st.header("Deskripsi Singkat")
     st.write("Diabetes adalah penyakit kronis yang ditandai dengan tingginya kadar gula darah. Glukosa merupakan sumber energi utama bagi sel tubuh manusia. Akan tetapi, pada penderita diabetes, glukosa tersebut tidak dapat digunakan oleh tubuh.")
     # need to import from PIL import Image to avoid from error
-    image = Image.open("../assets/images/image1.jpg")
+    # image = Image.open("../assets/images/image1.jpg")
     st.image(image, caption="ilustrasi diabetes")
     st.write("Gula yang berada di dalam darah seharusnya diserap oleh sel-sel tubuh untuk kemudian diubah menjadi energi. Insulin adalah hormon yang bertugas untuk membantu penyerapan glukosa dalam sel-sel tubuh untuk diolah menjadi energi, sekaligus menyimpan sebagian glukosa sebagai cadangan energi")
     st.write("Apabila terjadi gangguan pada insulin, seseorang berisiko tinggi mengalami diabetes. Diabetes dapat disebabkan oleh beberapa kondisi, seperti:") 
