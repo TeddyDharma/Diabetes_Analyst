@@ -5,10 +5,11 @@ import altair as alt
 import pickle
 import numpy as np
 #  
+# conn = st.experimental_connection('db',type="sql")
 conn = st.experimental_connection(
-    "local_db",
+    "mydb",
     type="sql",
-    url="mysql://root:@localhost:3306/diabetes"
+    # url="mysql://root:@localhost:3306/diabetes"
 )
 text_style = '''
     <style>
